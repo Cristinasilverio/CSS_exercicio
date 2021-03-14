@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font-size: 14px;
+	font-family: Arial;
+	color: #000;
+	margin-right: 0 auto 0 auto;
+
+}
+
+header{
+	padding: 0.5em;
+
+
+}
+h1{
+	color: #C60;
+	padding: 0.5em;
+}
+
+nav {
+	background-color: #4286f4;
+	padding: 0.2em 0em 0.2em 0em;
+
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+    padding-left: 0.5em;
+ }
+
+ nav a:hover {
+    color: orange;
+    text-decoration: underline;	
+}
+
+ .main-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.aside{
+	display: inline-block;
+	width: 20%;
+	padding: 0;
+	font-size: 0.9em;
+}
+
+.Favoritos{
+	padding: 5px;
+	margin-top: 1em;
+	background-color: #F8F8F8;
+	border: 1px solid #C5C5C5;
+
+}
+.Favoritos h3{
+	color: #036;
+	
+}
+.Favoritos p{
+	color: #999;
+}
+
+.Grupos{
+	padding: 5px;
+	margin-top: 0.5em;
+	background-color: #FFF6CD;
+	border: 1px dashed #C60;
+}
+
+.lista{
+	list-style: none;
+
+}
+.section{
+	display: inline-block;
+	width: 78%;
+	margin-left: 10px;
+}
+
+.principal{	
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 1em;
+	text-align: justify;
+	width: 73%;	
+}
+
+
+.principal h2{
+	color: #DB905C;
+}
+
+.secundario{
+	display: inline-block;
+	float: right;
+	width: 22%;
+	padding: 5px;
+}
+
+.secundario h2{
+	background-color: #DB905C;
+	color: #FFF;
+}
+.secundario p{
+	margin-top: 10px;
+
+}
+
+footer {
+     margin-top: 1em;
+     padding: 0.1em 0 0.1em 0;
+     border: 1px solid #C5C5C5;
+     background-color: #F8F8F8;
+     font-size: 0.8em;
+     text-align: right;
+
+
+ }
